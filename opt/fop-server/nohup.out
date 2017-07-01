@@ -1,0 +1,21 @@
+Exception in thread "main" java.lang.NoClassDefFoundError: br/com/relato/fop/server/Main
+Exception in thread "main" java.lang.NoClassDefFoundError: br/com/relato/fop/server/Main
+/usr/bin/nohup: line 79: exec: java: not found
+/usr/bin/nohup: line 79: exec: java: not found
+/usr/bin/nohup: line 79: exec: java: not found
+Error occurred during initialization of VM
+Could not reserve enough space for object heap
+Error occurred during initialization of VM
+Could not reserve enough space for object heap
+Error occurred during initialization of VM
+Could not reserve enough space for object heap
+Error occurred during initialization of VM
+Could not reserve enough space for object heap
+Error occurred during initialization of VM
+Could not reserve enough space for object heap
+Error occurred during initialization of VM
+Could not reserve enough space for object heap
+Error occurred during initialization of VM
+Could not reserve enough space for object heap
+Error occurred during initialization of VM
+Could not reserve enough space for object heap

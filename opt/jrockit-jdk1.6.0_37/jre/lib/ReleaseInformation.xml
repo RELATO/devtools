@@ -1,0 +1,20 @@
+<patch_information version="1.0">
+  <primary_bug_id>14261101</primary_bug_id>
+  <patch_id>14261101</patch_id>
+  <aru_platform>Linux x86-64</aru_platform>
+  <product_version>6u37 R28.2.5</product_version>
+  <product_name>Oracle JRockit</product_name>
+  <aru_product_version></aru_product_version>
+  <aru_product_name>Oracle JRockit</aru_product_name>
+  <primary_bug_description>jdk160 oracle jrockit r28.2.5</primary_bug_description>
+  <bug_ids>
+    <bug>14629141</bug>
+    <bug>14271750</bug>
+    <bug>14268514</bug>
+    <bug>14266485</bug>
+    <bug>14093205</bug>
+    <bug>14047648</bug>
+    <bug>13925641</bug>
+    <bug>13350796</bug>
+  </bug_ids>
+</patch_information>
