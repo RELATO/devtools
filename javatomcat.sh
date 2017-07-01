@@ -6,7 +6,7 @@ alias torestart="/opt/tomcat/bin/shutdown.sh;killall -9 java;killall -9 java;rm 
 JAVA_HOME=/opt/java
 TOMCAT_HOME=/opt/tomcat
 M2_HOME=/opt/maven
-ANT_HOME=/usr/share/ant
+ANT_HOME=/opt/ant
 
 export TOMCAT_HOME
 export JAVA_HOME
