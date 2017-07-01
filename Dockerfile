@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 
 MAINTAINER Relato <consultoria@relato.com.br>
 
@@ -41,7 +41,6 @@ rm -rf /opt/tomcat/webapps/examples && \
 rm -rf /opt/tomcat/webapps/docs && \
 rm -rf /opt/tomcat/webapps/ROOT
 
-# Add admin/admin user
 ADD locale /etc/default/locale
 ADD javatomcat.sh /etc/profile.d/javatomcat.sh
 ADD tomcat-users.xml /opt/tomcat/conf/
@@ -51,10 +50,6 @@ ADD catalina.sh /opt/tomcat/bin/catalina.sh
 
 ADD /opt/fop-server /opt/fop-server
 ADD /opt/jrockit-jdk1.6.0_37 /opt/jrockit-jdk1.6.0_37
-
-#RUN ln -s /opt/jrockit-jdk1.6.0_37 /opt/java
-#RUN rm /usr/bin/java && rm /etc/profile.d/jdk.*
-#RUN chmod a+x /etc/profile.d/javatomcat.sh
 
 # Define commonly used JAVA_HOME variable
 #ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
